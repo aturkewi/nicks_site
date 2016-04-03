@@ -15,4 +15,8 @@ class AppController < Sinatra::Base
     redirect to('/')
   end
 
+  get '/about.html' do
+    erb :'/app/about.html'
+  end
+
 end
