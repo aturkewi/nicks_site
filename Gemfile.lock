@@ -26,6 +26,7 @@ PLATFORMS
 
 DEPENDENCIES
   pry
+  rack
   rake
   require_all
   shotgun
