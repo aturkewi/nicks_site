@@ -15,7 +15,7 @@ Bundler.require(:default, ENV['SINATRA_ENV'])
 #  :database => "db/songs-#{ENV['SINATRA_ENV']}.db"
 # )
 
-ActiveRecord::Base.logger = nil
+# ActiveRecord::Base.logger = nil
 
 require_relative '../app.rb'
 

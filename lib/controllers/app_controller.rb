@@ -8,8 +8,11 @@ class AppController < Sinatra::Base
   end
 
   get '/' do
-    # @alerts = Alert.all
     erb :'/app/index.html'
+  end
+
+  get '/index.html' do
+    redirect to('/')
   end
 
 end
